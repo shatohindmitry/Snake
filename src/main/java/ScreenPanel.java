@@ -1,4 +1,6 @@
 
+//https://examples.javacodegeeks.com/java-snake-game-example/#google_vignette
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -19,7 +21,7 @@ public class ScreenPanel extends JPanel implements ActionListener {
     private final int SCREEN_WIDTH = 300;
     private final int SCREEN_HEIGHT = 300;
     private final int DOT_ICON_SIZE = 10;
-    private final int DOT_ICONS = 900;
+    private final int DOT_ICONS = SCREEN_WIDTH * SCREEN_HEIGHT / DOT_ICON_SIZE / DOT_ICON_SIZE;
     private final int RAND_POS = 29;
     private final int DELAY = 140;
 
